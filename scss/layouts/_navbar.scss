@@ -1,0 +1,16 @@
+.navbar {
+    padding-left:0;
+    margin-left: 0; 
+}
+.navbar--sticky {
+    
+    font-size: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1000;
+}
+.navbar__logo {
+    margin: -10px;  
+    height: 60px;
+}

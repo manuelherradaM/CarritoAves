@@ -1,0 +1,10 @@
+.index__carousel--imgs {
+    @include flexCenter(column);
+}
+.myCarousel__text--title {
+    text-shadow: 1px 1px rgb(4,4,4);
+}
+
+.myCarousel__text--paragraph {
+    text-shadow: 1px 1px rgb(4,4,4);
+}

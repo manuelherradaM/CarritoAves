@@ -1,0 +1,13 @@
+
+@import './base/resets';
+@import './base/typography';
+
+@import './abstracts/variables';
+@import './abstracts/mixins';
+
+@import './layouts/navbar';
+
+@import './components/carousel';
+
+@import './pages/index';
+@import './pages/diagrama';

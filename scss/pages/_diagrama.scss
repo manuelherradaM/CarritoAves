@@ -1,0 +1,22 @@
+.diagrama__background {
+    background-image: url("https://cdn.pixabay.com/photo/2015/07/18/18/04/parrot-850593_960_720.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;    
+    background-size: cover;
+}
+.diagrama__image {
+    @include flexCenter(column);
+    height: 100vh;
+    padding-top: 10vh;
+    background-repeat: no-repeat; 
+    mix-blend-mode: color-burn;  
+}
+.diagrama__text--title {
+    display: flex;
+    padding-top: 10vh;
+    color: $primary-color;
+    font-size: 3rem;
+    font-weight: bolder;
+    flex-direction: row-reverse;
+}

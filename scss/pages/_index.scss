@@ -1,0 +1,42 @@
+.index__banner {
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/13/22/25/bird-1905255_960_720.jpg");
+    width: 100vw;
+    height: 100vh;
+    //transform: rotateY(180deg); // Rotate 180 degrees along the y-axi
+    background-repeat: no-repeat;    
+    background-size: cover;
+    background-attachment: fixed;    
+}
+.index__banner--text {
+    position: absolute;
+    bottom: 0;
+    color: $secondary-color;
+    padding-top: 10vh;
+    font-family: $bebas-neue;
+    font-size: 5rem;
+    font-weight: 900;
+    display:flex;
+    flex-direction: row-reverse;
+    padding-bottom: 5vh;
+    text-shadow: 3px 3px rgb(4,4,4);
+}
+
+.index__carousel {
+    height: 100vh;
+    background-color: $primary-color;
+}
+.index__carousel--text {
+    @include flexCenter(column);
+    text-align: center;
+    padding: 10vw;
+   
+}
+.index__carousel--title {
+    color: $accent-color;
+    font-size: 2rem;
+}
+.index__carousel--paragraph {   
+    color: $accent-color;
+    font-size: 1rem;
+
+}
